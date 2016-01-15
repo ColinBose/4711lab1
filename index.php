@@ -66,7 +66,7 @@ and open the template in the editor.
         //constructor, set position to the current board state
         function __construct($squares) {
             $this->position = str_split($squares);
-            echo '<nav style="height:80px">';
+            echo '<nav style="height:120px">';
             echo '<h1>Welcome to Tic Tac Toe!!!!!!!!!!!</h1>';
 
         }
